@@ -17,8 +17,7 @@ const URI = process.env.ATLAS_URI;
 mongoose.connect(URI, {
     // ssl: true, 
     // sslValidate: false,
-    tlsCertificateKeyFile: `/home/edu/.ssh/X509-cert-7850560951636244844.pem`
-    // sslCA: `/home/edu/.ssh/X509-cert-7850560951636244844.pem`,
+    tlsCertificateKeyFile: process.env.TLS_FILE,
     // tlsAllowInvalidHostnames: true
 });
 
