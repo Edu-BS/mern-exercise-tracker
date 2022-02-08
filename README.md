@@ -1,3 +1,8 @@
+# Tutorial
+This project was made it following this tutorial: 
+
+[Learn the MERN Stack - Full Tutorial (MongoDB, Express, React, Node.js)]([https://link](https://www.youtube.com/watch?v=7CqJlxBYj-M&list=LL&index=2))
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +73,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Getting started
+
+Front-end:
+```
+$ npx create-react-app mern-exercise-tracker
+$ cd mern-exercise-tracker
+$ npm start
+```
+
+Back-end:
+```
+$ mkdir backend
+$ cd backend
+$ npm init
+$ npm install express cors mongoose dotenv
+```
+
+Install nodemon globaly:
+
+`$ npm install -g nodemon`
